@@ -1,3 +1,7 @@
+.tw-followCard-container {
+	border: 1px solid black;
+}
+
 .tw-followCard {
 	display: flex;
 	align-items: center;
@@ -76,5 +80,11 @@
 .App {
 	display: flex;
 	flex-direction: column;
+	border: 1px solid gray;
+	padding: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 40px 0px rgba(78, 78, 78, 0.58);
+	-moz-box-shadow: 10px 10px 40px 0px rgba(78, 78, 78, 0.58);
+	box-shadow: 10px 10px 40px 0px rgba(78, 78, 78, 0.58);
 	gap: 8px;
 }
